@@ -59,8 +59,6 @@ logging:
     reactor.netty.http.server: DEBUG
 
 management:
-  server:
-    port: 8081
   endpoints:
     web:
       exposure:
