@@ -33,7 +33,7 @@ spring:
   ai:
     openai:
       api-key: ${AI_API_KEY}
-      base-url: "https://api.groq.com/openai"
+      base-url: https://openrouter.ai/api
       chat:
         options:
-          model: "llama-3.3-70b-versatile"
+          model: openrouter/auto
